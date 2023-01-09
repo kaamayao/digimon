@@ -16,6 +16,12 @@ export default ({navigation}) => {
           navigation.navigate('Battleground', {name: 'Jane'})
         }
         ></Button>
+        <Button
+          title="This is Nico's Page"
+          onPress={() =>
+            navigation.navigate('Pokémon', {name: 'Jane'})
+          }
+        />
         </Pressable>
       
       </View>
