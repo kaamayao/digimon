@@ -6,7 +6,7 @@ export default ({navigation}) => {
         <Button
           title="This is Nico's Page"
           onPress={() =>
-            navigation.navigate('ChoosePokemon', {name: 'Jane'})
+            navigation.navigate('Pokémon', {name: 'Jane'})
           }
         />
         <Button

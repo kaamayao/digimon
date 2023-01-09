@@ -20,7 +20,7 @@ export default function App() {
           options={{title: 'Welcome'}}
         />
 
-        <Stack.Screen name="ChoosePokemon" component={ChoosePokemon} />
+        <Stack.Screen name="Pokémon" component={ChoosePokemon} />
         
         <Stack.Screen name="Battleground" component={Battleground} />
 
